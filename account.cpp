@@ -2,7 +2,7 @@
 #include "account.h"
 #include <cstring>
 
-using namespace std;
+
 
 const int STAFF = 20;
 #define MAX 1000000
