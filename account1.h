@@ -12,8 +12,7 @@ private:
     string name;
     string number;
     float balance;
-    vector <Account*> arr;
-
+  
 public:
     Account (const string &_name, string _number, float _balance):
                 name(_name),number(_number),balance(_balance) {}
@@ -29,7 +28,7 @@ public:
         void change(float add_balance);
         void change_balance(vector<Account*>,float);
         vector<Account*> check(vector<Account*>);
-
+    ~Account(){};
 };
 
 #endif // KEEPING_H
