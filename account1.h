@@ -29,7 +29,7 @@ public:
         void change(float add_balance);
         void change_balance(vector<Account*>,float);
         vector<Account*> check(vector<Account*>);
-
+    ~Account(){};
 };
 
 #endif // KEEPING_H
