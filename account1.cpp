@@ -1,5 +1,5 @@
 #include <iostream>
-#include "account1.h"
+#include "account.h"
 #include <cstring>
 #include <iomanip>
 #include <cstdlib>
@@ -164,7 +164,7 @@ int main(){
     arr = p->search_account(p,arr);
     p->change_balance(arr,0.0);
 
-    p->get_extremes_values(p);
+    p->get_extremes(p);
 
 
     for(int i=0; i<STAFF; i++){
