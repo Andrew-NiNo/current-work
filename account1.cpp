@@ -106,8 +106,7 @@ void Account::change_balance(VECTOR search_res,float add_balance){     ///Method
         search_res[0]->replacement(add_balance);                                     ///Change value with check
         search_res[0]->show();
 
-        search_res.clear();
-        search_res.shrink_to_fit();                                                  ///Set the vector to zero
+        search_res.clear();                                                       ///Set the vector to zero
 };
 
 void Account::replacement(float add_balance){                                    ///Method changes value with check
